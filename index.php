@@ -31,7 +31,9 @@ $artigos = $artigo->exibirTodos();
             <?php echo $artigo['conteudo']; ?>
         </p>
         <?php endforeach; ?>
+        <a class="botao botao-block" href="admin/index.php">Admin</a>
     </div>
+    
 </body>
 
 </html>
