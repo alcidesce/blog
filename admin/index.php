@@ -26,11 +26,11 @@ $artigos = $artigo->exibirTodos();
             <div id="artigo-admin">
                 <p><?php echo $art['titulo']; ?></p>
                 <nav>
-                    <a class="botao" href="editar-artigo.html">Editar</a>
+                    <a class="botao" href="editar-artigo.php?id=<?php echo $art['id']; ?>">Editar</a>
                     <a class="botao" href="excluir-artigo.php?id=<?php echo $art['id']; ?>">Excluir</a>
                 </nav>
             </div>
-            <?php }?>
+       <?php }?>
         </div>
         <a class="botao botao-block" href="adicionar-artigo.php">Adicionar Artigo</a>
         <br>

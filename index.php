@@ -28,7 +28,7 @@ $artigos = $artigo->exibirTodos();
             </a>
         </h2>
         <p>
-            <?php echo $artigo['conteudo']; ?>
+            <?php echo nl2br($artigo['conteudo']); ?>
         </p>
         <?php endforeach; ?>
         <a class="botao botao-block" href="admin/index.php">Admin</a>
